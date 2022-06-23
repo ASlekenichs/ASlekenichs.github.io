@@ -5,11 +5,17 @@
     <title>DOC</title>
 </head>
 <body>
-<div>A bookmark in the workspace element tree. Contains a list of active domains used in the project.</div>
+<div>A bookmark in the workspace element tree. Contains a list of active tools used in the project.</div>
 <br/>
 <div>Clicking on an element brings focus to the domain on each of the layers.</div>
-<div>After selecting an element on the Layers tab, only the layers where this domain is present remain.</div>
+<div>After selecting an element on the Layers tab, only layers remain, this tool is present.</div>
 <br/>
-<div>To create a new domain, select ADD DOMAIN. The drop-down menu will show all domains that can cross with the given but have not yet been created in the diagram.</div>
+<div>To add a new tool, select ADD TOOL. The drop down menu will show:</div>
+<ul>
+<li>all available tools if there are no selected domains on the layer.</li>
+<li>all tools that can be used for the domain selected on the layer.</li>
+</ul>
+<br/>
+<div><b>Important!</b> Multiple tools can be connected to the same domain. For example, several Java source tools connect to the Java domain.</div>
 </body>
 </html>
